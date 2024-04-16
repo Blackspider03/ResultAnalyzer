@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96104114916",
+    "project_id": "smartscroehub",
+    "storage_bucket": "smartscroehub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96104114916:android:567526474b3806ec195af1",
+        "android_client_info": {
+          "package_name": "com.example.smartscroehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu5GJqDJOTDVP9l-NZlgHtwS7shlCjSZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

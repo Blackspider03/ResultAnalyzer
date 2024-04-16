@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stafflogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E4BA10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Result Analyzer"
+            android:textColor="#7F5812"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Admin"
+            android:textColor="#7F5812"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            app:srcCompat="@drawable/studentlogo" />
+
+        <EditText
+            android:id="@+id/stafflogemail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextstyle"
+            android:drawableLeft="@drawable/email"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Example@gmail.com"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            android:text="ganya@gmail.com" />
+
+        <EditText
+            android:id="@+id/stafflogpass"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextstyle"
+            android:drawableLeft="@drawable/pass"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Pass****"
+            android:inputType="numberPassword"
+            android:paddingLeft="10dp"
+            android:text="123456789" />
+
+        <EditText
+            android:id="@+id/stafflogsec"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittextstyle"
+            android:drawableLeft="@drawable/pass"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="security code"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:text="7620" />
+
+        <Button
+            android:id="@+id/stafflogbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#7E5812"
+            android:text="Login" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
